@@ -12,7 +12,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="Home"
+        initialRouteName="estudar"
         screenOptions={{ headerShown: false }} // remove cabeçalho
       >
         <Stack.Screen name="Home" component={HomeScreen} />

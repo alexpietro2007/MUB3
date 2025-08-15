@@ -5,6 +5,7 @@ export default StyleSheet.create({
     flex: 1,
     backgroundColor: '#111216',
     paddingTop: 40,
+    overflow: 'hidden',
   },
 
   button: {
@@ -46,16 +47,19 @@ export default StyleSheet.create({
 
   buttonBack: {
     position: 'absolute',
-    bottom: 30,
+    bottom: 0,
     alignSelf: 'center',
-    borderWidth: 2,
+    borderWidth: 5,
     borderColor: '#54C5D8',
-    borderRadius: 20,
+    // borderRadius: 20,
+    borderTopEndRadius: 50,
+    borderTopStartRadius: 50,
     paddingVertical: 8,
     paddingHorizontal: 40,
-    backgroundColor: 'transparent',
+    backgroundColor: '#000000',
     width: 200,
     height: 75,
+    zIndex: 1,
   
     justifyContent: 'center',  // centraliza verticalmente o conteúdo
     alignItems: 'center',      // centraliza horizontalmente o conteúdo
@@ -70,6 +74,7 @@ export default StyleSheet.create({
 
   cog:{
     left: 200,
-    top: 50,
+    top: 150,
+    zIndex: 0,
   }
 });
