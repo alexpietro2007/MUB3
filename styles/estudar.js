@@ -6,7 +6,23 @@ export default StyleSheet.create({
         flex: 1,
 
     },
-    
+
+    logo: {
+        width: 300,
+        height: 50,
+        marginTop: 90,
+        marginLeft: 55,
+        zIndex: 1,
+    },
+
+    cog:{
+        color: '#54C5D8',
+        position: 'absolute',
+        right: 230,
+        bottom: 780,
+        zIndex: 0,
+    },
+
     buttonBack: {
         position: 'absolute',
         bottom: 0,
@@ -33,5 +49,34 @@ export default StyleSheet.create({
         fontSize: 35,
         fontWeight: '400',
     },
+
+    background: {
+    flexDirection: 'row',
+    backgroundColor: '#fff',
+    borderWidth: 2,
+    borderColor: '#54C5D8', // azul claro da borda
+    height: 70,
+    alignItems: 'center',
+    marginVertical: 100,
+    justifyContent: 'center',
+    textAlign: 'center',
+    width: '80%',
+    paddingHorizontal: 20,
+    borderRadius: 50, // borda arredondada
+    alignSelf: 'center', // centraliza horizontalmente
+  },
+
+   text: {
+    fontSize: 20,
+    color: '#000',
+  },
+
+  arrow:{
+    color: '#54C5D8',
+    position: 'absolute',
+    left: 165,
+    bottom: 500,
+    zIndex: 0,
+  },
 
 });
